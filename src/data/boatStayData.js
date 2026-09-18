@@ -66,7 +66,7 @@ export const sharedSpacesImages = [
   },
   {
     title: "Vue sur le port",
-    image: "/images/hero-yacht-sunset.png",
+    image: "/images/hero-yacht-sunset.webp",
     position: "bg-center",
   },
 ];

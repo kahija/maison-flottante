@@ -244,7 +244,15 @@ export function Hero() {
       id="top"
       className="relative flex min-h-screen items-center overflow-hidden px-5 pt-24"
     >
-      <div className="absolute inset-0 bg-[url('/images/hero-yacht-sunset.png')] bg-cover bg-center" />
+      <img
+        src="/images/hero-yacht-sunset.webp"
+        alt=""
+        width={1823}
+        height={863}
+        loading="eager"
+        fetchPriority="high"
+        className="absolute inset-0 h-full w-full object-cover object-center"
+      />
       <div className="absolute inset-0 bg-gradient-to-r from-[#071f2b]/80 via-[#071f2b]/45 to-[#071f2b]/10" />
       <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#f8fbff] to-transparent" />
 
